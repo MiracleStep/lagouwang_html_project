@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba1fb07-b713-478a-8d91-5e9ef473e3ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/F843BDF2-56D3-4C93-B5ED-391C6E43489D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/slgon2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webstorm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webstorm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Tencent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/baidu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bytedance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/weiruan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +36,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i8aN6iuG04WuQli2HbxVVnppVi" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -51,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601291629470</updated>
       <workItem from="1601291630519" duration="10999000" />
+      <workItem from="1601357066294" duration="14104000" />
     </task>
     <servers />
   </component>
@@ -78,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -87,5 +90,13 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="511" y="23" key="#HTML/0.23.1440.840@0.23.1440.840" timestamp="1601293160694" />
+    <state x="107" y="176" key="SettingsEditor" timestamp="1601357090573">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="107" y="176" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1601357090573" />
+    <state x="937" y="217" key="run.anything.popup" timestamp="1601368779431">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="937" y="217" key="run.anything.popup/0.0.1707.929@0.0.1707.929" timestamp="1601368779431" />
   </component>
 </project>
