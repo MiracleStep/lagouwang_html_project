@@ -50,7 +50,7 @@
 
 .middle_content{
     width: 1000px;
-    background-color: green;
+    background-color: #00b38a;
     margin: 0 auto;
     height: 550px;
 }
@@ -247,4 +247,16 @@ form, li {
     background-image: linear-gradient(90deg,#09cb9d,#02b389);
     border-radius: 3px;
     text-decoration: none;
+}
+
+.fl_right{
+    animation: rotate_Y 1.5s ease 0.5s 1 alternate;
+}
+@keyframes rotate_Y {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }

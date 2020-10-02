@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bba1fb07-b713-478a-8d91-5e9ef473e3ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lagou_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lagou_ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lagou_func.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lagou_func.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +45,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Auserfile\作业__临时\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Auserfile\作业__临时\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,6 +68,8 @@
       <workItem from="1601291630519" duration="10999000" />
       <workItem from="1601357066294" duration="14104000" />
       <workItem from="1601376157337" duration="5863000" />
+      <workItem from="1601555916148" duration="4019000" />
+      <workItem from="1601560206385" duration="1204000" />
     </task>
     <servers />
   </component>

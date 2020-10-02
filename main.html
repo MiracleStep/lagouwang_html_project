@@ -6,332 +6,10 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>找工作-互联网招聘求职网</title>
-  <script >
-    window.onload = function (){
-      let btn1 = document.getElementById('btn1');
-      btn1.onclick = function (){
-        let input1 = document.getElementById('input1');
-        if (input1.value == ''){
-          alert('尚未输入!');
-        }
-        else {
-          alert('无法查找：'+ input1.value +'，此功能尚未完善！');
-        }
-      }
-
-
-      let w1 = document.getElementById('w1');
-      let w2 = document.getElementById('w2');
-      let w3 = document.getElementById('w3');
-      let w4 = document.getElementById('w4');
-      let w5 = document.getElementById('w5');
-      let w6 = document.getElementById('w6');
-      let img = document.getElementById('img');
-
-      w1.onclick = function (){
-        img.src = './image/bytedance.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-      w2.onclick = function (){
-        img.src = './image/Tencent.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-      w3.onclick = function (){
-        img.src = './image/baidu.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-      w4.onclick = function (){
-        img.src = './image/google.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-      w5.onclick = function (){
-        img.src = './image/weiruan.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-      w6.onclick = function (){
-        img.src = './image/apple.jpg';
-        img.style.width = '491px';
-        img.style.height = '424px';
-      }
-
-      let huoqu = document.getElementById('huoqu');
-      huoqu.onclick = function (){
-        var num = 60;
-        var timer = setInterval(function (){
-                    num--;
-                    huoqu.innerHTML = num;
-                    if (num == 0){
-                      num = 60;
-                      huoqu.innerHTML = '获取验证码';
-                      clearInterval(timer);
-                    }
-                    },1000);
-      }
-
-      let log_in = document.getElementById('log_in');
-      log_in.onclick = function (){
-        alert('尚未开通！');
-      }
-    }
-  </script>
-  <style>
-      .box {
-
-      }
-
-      .header{
-          height: 60px;
-          width: 1425px;
-          background-color: white;
-      }
-
-      .header-bg{
-          width: 1000px;
-          height: 60px;
-          margin: 0 auto;
-          background-color: white;
-      }
-
-      .display_inline {
-        display: inline;
-      }
-
-      .hd_left{
-          position: relative;
-          top: 12px;
-      }
-
-      .hd_right{
-          float: right;
-          position: relative;
-          height: 60px;
-          line-height: 60px;
-      }
-
-      .show_qrcode{
-          color: #999;
-          font-size: 14px;
-      }
-
-      .qr_codeapp{
-          position: absolute;
-          display: none;
-          right: 0px;
-          top: 43px;
-          width: 128px;
-          height: 128px;
-      }
-      .show_qrcode:hover .qr_codeapp{
-          display: block;
-      }
-
-      .middle_content{
-        width: 1000px;
-        background-color: green;
-        margin: 0 auto;
-        height: 550px;
-      }
-      .mid_img_logo{
-        margin: 28px 0 8px 0;
-        height: 34px;
-        display: block;
-      }
-
-      .fl_left{
-        float: left;
-        position: relative;
-        width: 610px;
-      }
-      .fl_lf_content{
-        width: 610px;
-      }
-      .search_bar{
-        background-color: white;
-        width: 610px;
-        height: 46px;
-        position: relative;
-        border-radius: 5px;
-      }
-
-      .lg_search{
-        width: 16px;
-        height: 16px;
-        display: block;
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAc1JREFUOBGVU89LAlEQdt+CxkYe/UGew8MSGBp5CDsHnspjUJddhY7moS7+AYJCkOsKBR3r0Km7FWTEagcPegm7BJ4Cheiy7vbN4i4lZdvA25n35ptv9s3M4zxTUigUFobD4SqOY1hRLI3juF4oFLotFovGFNzDfT2QZXkTewXr2TTNJwR2YCexROwZ9K6qqj1oRxwCSZKOcbrP83yyWq0+OIiJAXIJZgVEGZBc236LgDLDUff7/UulUunddk7rbDYbMwyjzRiLKIrySn5Gd0ZwFb+7PSuYwAiiax2ApE57EjYajRLQ/Vqt1rRO/viEw+EKICkUdI6gDNlXoNu0cSMI1PEX3cFgsEx4qmx0Um038Tamg8TUYotAg6ZW/UcIT3EeFJR1oUXauBG0WwAuIAhCn/AsGAze4XcYWiS7IcB1VeDOyuXyh0VA44nDHbRGATsV9FeB/wTJEl6v99AG8WS0Wq23eDx+D/MK2kyn04+NRsOZ+3w+Py+K4jn8e1jgMJuapr3A/v4WcI3FyZCkqFXw228hgKBTn893pOv62ng8vsTIZzDyN85bIDZbaEiozwiyXiMVzL4zYZBoA4kuQLL1I4FNNEvncrl1kEQ+AUN0uixckH2jAAAAAElFTkSuQmCC) no-repeat;
-        margin: 15px 9px 18px 19px;
-        position: absolute;
-      }
-      .search-input{
-        font-size: 14px;
-        color: #666;
-        letter-spacing: 1px;
-        width: 440px;
-        padding-left: 49px;
-        line-height: 43px;
-        border: none;
-        outline: none;
-        padding-right: 18px;
-      }
-      .search_bar_btn{
-        font-size: 16px;
-        color: white;
-        letter-spacing: 0px;
-        background-color: #00b38a;
-        border-radius: 4px;
-        border: none;
-        padding: 7px 14px;
-        outline: none;
-        margin: 4px 0 0 0;
-      }
-      .select_content{
-        margin-top: 14px;
-        background-color: red;
-        width: 610px;
-        height: 424px;
-        float: left;
-      }
-
-      .select_choose_bar{
-        width: 112px;
-        background-color: #00906f;
-        border-radius: 4px;
-        padding: 4px;
-        height: 416px;
-      }
-
-      .select_choice{
-        display: block;
-        font-size: 16px;
-        color: white;
-        letter-spacing: 0px;
-        text-align: center;
-        line-height: 69px;
-        width: 102px;
-        height: 69px;
-        margin: auto;
-        border-radius: 4px;
-      }
-
-      /*悬浮显示select颜色*/
-      #w1:hover{
-        background-color: darkturquoise;
-      }
-      #w2:hover{
-        background-color: darkturquoise;
-      }
-      #w3:hover{
-        background-color: darkturquoise;
-      }
-      #w4:hover{
-        background-color: darkturquoise;
-      }
-      #w5:hover{
-        background-color: darkturquoise;
-      }
-      #w6:hover{
-        background-color: darkturquoise;
-      }
-
-      .select_img{
-        position: relative;
-        top: -424px;
-        height: 424px;
-        float: right;
-      }
-      form, li {
-          position: relative;
-          margin-bottom: 34px;
-      }
-
-      .fl_right{
-        width: 230px;
-        float: right;
-        background-color: white;
-        border-radius: 4px;
-        padding: 57px 50px 35px;
-        position: relative;
-        height: 333px;
-        margin: 12px 29px 0px 0px;
-      }
-      .login_title{
-        font-size: 24px;
-        text-align: center;
-        font-weight: 600;
-        position: relative;
-        line-height: 0px;
-        margin-bottom: 47px;
-      }
-
-      .before_code{
-          position: relative;
-          float: left;
-          left: -39px;
-          width: 50px;
-          z-index: 2;
-          height: 38px;
-          padding-right: 15px;
-          line-height: 40px;
-          cursor: default;
-      }
-      .before_code:after{
-          position: absolute;
-          content: "";
-          right: 8px;
-
-          top: 14px;
-          display: block;
-          width: 10px;
-          height: 10px;
-          background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAANFJREFUOBHtkr0NwjAQheNkCqZhDyoax4IiDJCaAYIEyK6oKDwEq5n3FJyI4BiHNBQ56Wzf36fTnbNskb+bgDDGrNHVHXosy/LyS4dg7FFXQze5EKLAY+WcO2utq6lA1rCWDLJyKeUDjh0MB2czBfrKbVhLBlnCd4SgQuCKAH0HpdTJx0L3EIZ8zbwOSCMVOgb7AKZAY7AgMAb9BhsFhqD0QboF+Jm17v58m2Hvbl+DmWZ+m2MwVkWBTMCn3eLyG6/w+W+w54m1tqDOoyzVqRN4AgXLjC5IHionAAAAAElFTkSuQmCC) no-repeat;
-          background-size: contain;
-      }
-      .in_phone{
-          display:block;
-          width: 185px;
-          height: 38px;
-          font-size: 16px;
-          position: relative;
-          left: -44px;
-          top: -39px;
-          color: #333;
-          border: none;
-          border-bottom: 1px solid #e6e6e6;
-          outline: none;
-          padding-left: 72px;
-      }
-      .getcode{
-          position: absolute;
-          left: 100px;
-          top: -39px;
-          cursor: pointer;
-          display: inline-block;
-          height: 38px;
-          font-size: 14px;
-          line-height: 38px;
-          color: #00b38a;
-          text-align: center;
-          text-decoration: none;
-          border-radius: 3px;
-          width: 73px;
-      }
-      .submitBtn{
-          display: block;
-          height: 48px;
-          line-height: 48px;
-          font-size: 16px;
-          color: #fff;
-          text-align: center;
-          background-image: linear-gradient(90deg,#09cb9d,#02b389);
-          border-radius: 3px;
-          text-decoration: none;
-      }
-
-  </style>
+  <!--   script和css文件-->
+  <script type="text/javascript" src="./js/lagou_func.js"></script>
+  <link rel="stylesheet" href="./css/lagou_ui.css">
+    
 </head>
 <body>
 <div class="box">
@@ -339,12 +17,12 @@
 <!--  头标签-->
   <div class="header">
     <div class="header-bg">
-      <span class="hd_left"><img src="./image/logo.png" height="34" width="222"></span>
+      <span class="hd_left"><img src="./image/logo.png" height="34" alt="img_logo" width="222"></span>
 
       <div class="hd_right">
           <a class="show_qrcode" id="a" href="javascript:void(0);">
             <span>拉勾APP</span>
-            <img class="qr_codeapp" id="qr" src="./image/qrcode.png">
+            <img class="qr_codeapp" id="qr" src="./image/qrcode.png" alt="qr">
           </a>
       </div>
     </div>
@@ -354,7 +32,7 @@
 <!--  中部内容展示-->
   <div class="middle">
     <div class="middle_content">
-      <img class="mid_img_logo" src="./image/slgon2.png">
+      <img class="mid_img_logo" src="./image/slgon2.png" alt="logo">
       <div class="fl_left">
         <div class="fl_lf_content">
           <div class="search_bar">
@@ -374,11 +52,12 @@
           <span class="select_choice" id="w6" >销售</span>
         </div>
         <div class="select_img">
-          <img id="img" style="width: 491px;height: 424px;" src="./image/bytedance.jpg">
+        <!-- 技术、产品等图片部分展示-->
+          <img id="img" style="width: 491px;height: 424px;" src="./image/bytedance.jpg" alt="img">
         </div>
       </div>
 
-
+      <!--右侧登陆栏-->
       <div class="fl_right ">
         <p class="login_title">
           <span style="color: #00b38a">一键</span>注册 轻松高薪
@@ -391,7 +70,7 @@
               <input placeholder="请输入常用手机号" class="in_phone" autocomplete="off">
             </li>
             <li style="margin-bottom: 0;">
-              <input style="padding-left: 0px" placeholder="请输入手机验证码" class="in_phone" autocomplete="on">
+              <input style="padding-left: 0" placeholder="请输入手机验证码" class="in_phone" autocomplete="on">
               <span class="getcode" id="huoqu">获取验证码</span>
             </li>
           </ul>
@@ -403,10 +82,9 @@
 
   </div>
 
-
-
-  <div class="foot1"></div>
-  <div class="foot2"></div>
+<!--  尾部标签展示---未作 -->
+  <div class="foot_h"></div>
+  <div class="foot_info"></div>
 </div>
 </body>
 </html>
