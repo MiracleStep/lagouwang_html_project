@@ -31,6 +31,18 @@
     line-height: 60px;
 }
 
+
+
+.middle {
+    background: #00b38a;
+    background-position: bottom;
+    width: 100%;
+    height: 750px;
+    background-size: auto 112px;
+}
+
+
+
 .show_qrcode{
     color: #999;
     font-size: 14px;
@@ -108,7 +120,7 @@
 }
 .select_content{
     margin-top: 14px;
-    background-color: red;
+    background-color: #00b38a;
     width: 610px;
     height: 424px;
     float: left;
